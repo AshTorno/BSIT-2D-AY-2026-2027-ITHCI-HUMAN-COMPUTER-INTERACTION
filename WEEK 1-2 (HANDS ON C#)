@@ -7,3 +7,42 @@ public class Intro
         Console.WriteLine ("My name is Ash Venidic L. Torno, I am 19 years old, I love playing online games");
     }
 }
+
+
+
+using System;
+
+public class Datatypes
+{
+    public static void Main(string[] args)
+    {
+        int age = 19;
+        string name = "Ash Venidic L. Torno";
+        double weight = 51;
+        bool mode = true;
+        double dec = .2;
+        Console.WriteLine(age);
+        Console.WriteLine(name);
+        Console.WriteLine(weight+dec);
+        Console.WriteLine(mode);
+    }
+}
+
+
+
+using System;
+
+public class Inputfunction
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+        Console.Write("Enter your age: ");
+        int age = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter your Weight: ");
+        int weight = Convert.ToInt32(Console.ReadLine());
+        bool mode = true;
+        Console.WriteLine("Hello "+name+"!, you are "+age+" years old. Your Weight is "+weight.ToString("F2")+"kg and that is "+mode+".");
+    }
+}
