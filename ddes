@@ -1,0 +1,9 @@
+using System;
+
+public class Intro
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("My name is Ash Venidic L. Torno, I am 19 years old, I love playing online games");
+    }
+}
